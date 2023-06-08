@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -81,8 +84,12 @@
 
 html,
 body {
+  display: flex;
   max-width: 100vw;
   overflow-x: hidden;
+  align-items: center;
+  justify-content: center;
+
 }
 
 body {
@@ -104,4 +111,27 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+input{
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  height: 5vh;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  
+}
+
+
+label{
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  height: 5vh;
+  font-size: 30px;
 }
